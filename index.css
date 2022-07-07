@@ -55,12 +55,3 @@ button{
 button:hover{
     background-color: #732d91;
 }
-#prev{
-    background-color: lightsalmon;
-    width: 25%;
-    border-radius: 0 5px 5px 0;
-    padding: .9rem;
-}
-#prev:hover{
-    background-color:rgb(252, 120, 68) ;
-}

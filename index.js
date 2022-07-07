@@ -75,17 +75,6 @@ function getSelected(){
 
 loadQuestion();
 
-prevBtn.addEventListener("click",()=>{
-    if(currentQuestion>0){
-        currentQuestion--;
-        score--;
-        loadQuestion();
-    }else{
-        currentQuestion=0;
-        score=0;
-    }
-})
-
 submitBtn.addEventListener("click",()=>{
     const answer=getSelected();
     if(answer){
